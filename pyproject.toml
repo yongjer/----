@@ -1,11 +1,17 @@
 [project]
-name = "yin-guo-guan-xi"
+name = "linear_regression_analysis"
 version = "0.1.0"
 description = "Add your description here"
 authors = [
     { name = "yongjer", email = "jerjer920813@gmail.com" }
 ]
-dependencies = []
+dependencies = [
+    "numpy>=2.1.2",
+    "pandas>=2.2.3",
+    "scipy>=1.14.1",
+    "matplotlib>=3.9.2",
+    "scikit-learn>=1.5.2",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
